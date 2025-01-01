@@ -276,3 +276,5 @@ let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
 set tabstop=4
 set shiftwidth=4
 set mouse=a
+
+set fileencodings=ucs-bom,utf-8,gb2312,default
