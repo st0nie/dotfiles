@@ -3,6 +3,7 @@ font-family = "Maple Mono NF"
 font-size = 11
 
 cursor-style-blink = false
+adjust-cursor-thickness = 3
 
 gtk-single-instance = true
 gtk-titlebar = false
