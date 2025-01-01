@@ -278,3 +278,9 @@ set shiftwidth=4
 set mouse=a
 
 set fileencodings=ucs-bom,utf-8,gb2312,default
+
+if !isdirectory(expand("~/.vim/swap"))
+    call mkdir(expand("~/.vim/swap"), "p")
+endif
+
+set directory=~/.vim/swap/
