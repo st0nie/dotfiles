@@ -204,6 +204,10 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+" Show files in workspace
+nnoremap <silent><nowait> <space>f  :<C-u>CocList files<cr>
+nnoremap <silent><nowait> <space>b  :<C-u>CocList buffers<cr>
+
 " Coc END
 
 set background=light
@@ -251,7 +255,7 @@ let g:airline_right_sep = ''
 let g:airline_left_alt_sep = '|'
 let g:airline_right_alt_sep = '|'
 
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-snippets', 'coc-pairs', 'coc-marketplace', 'coc-highlight', 'coc-git', 'coc-explorer']
+let g:coc_global_extensions = ['coc-json', 'coc-lists', 'coc-snippets', 'coc-pairs', 'coc-marketplace', 'coc-highlight', 'coc-git', 'coc-explorer']
 
 set ts=4 sw=4
 
