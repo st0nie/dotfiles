@@ -9,6 +9,8 @@ gtk-single-instance = true
 gtk-titlebar = false
 gtk-adwaita = false
 
+confirm-close-surface = false
+
 keybind = ctrl+(=new_split:right
 keybind = ctrl+)=new_split:down
 
