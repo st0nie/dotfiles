@@ -49,6 +49,9 @@ inoremap <silent><expr> <Tab>
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
 
+inoremap <silent><expr> <C-j> coc#pum#visible() ? coc#pum#next(0) : "\<C-j>"
+inoremap <silent><expr> <C-k> coc#pum#visible() ? coc#pum#prev(0) : "\<C-k>"
+
 function! CheckBackspace() abort
   let col = col('.') - 1 
   return !col || getline('.')[col - 1]  =~# '\s'
